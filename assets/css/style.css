@@ -1884,4 +1884,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   display: flex; /* Use flexbox to align items horizontally */
   justify-content: center; /* Center the buttons horizontally */
   gap: 5px; /* Add some space between the buttons */
+
+}
+@media (max-width: 600px) {
+  .contact-form .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 }
