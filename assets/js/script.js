@@ -157,3 +157,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+function openWhatsApp() {
+  var phoneNumber = '9373250677';
+  window.open('https://wa.me/' + phoneNumber, '_blank');
+}
